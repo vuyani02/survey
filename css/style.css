@@ -1,0 +1,14 @@
+body{
+    background: url(images/the-great-snake-view-buildings-ocean-wallpaper-preview.jpg) center/cover no-repeat fixed;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#header{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
