@@ -14,107 +14,82 @@
     <div class="questions">
     <form id="1" action="https://formspree.io/f/xrbpzjrz" method="post">
         <label class="label" for="name">Name</label>
-        <br>
-        <br>
-        <input class="input" type="text" name="" id="name" placeholder="Enter your name">
-
+        <br><br>
+        <input class="input" type="text" name="name" id="name" placeholder="Enter your name">
+    
         <label class="label" for="email">Email</label>
-        <br>
-        <br>
-        <input class="input" type="email" name="" id="email" placeholder="Enter your email">
-
+        <br><br>
+        <input class="input" type="email" name="email" id="email" placeholder="Enter your email">
+    
         <label class="label" for="age">Age (optional)</label>
-        <br>
-        <br>
-        <input class="input" type="text" name="" id="age" placeholder="Age">
-        
+        <br><br>
+        <input class="input" type="text" name="age" id="age" placeholder="Age">
+    
         <label class="label" for="cRole">Which option best describes your current role?</label>
-        <br>
-        <br>
-        <select class="input" name="" id="cRole">
-            <option value="Select current role">Select current role</option>
+        <br><br>
+        <select class="input" name="current_role" id="cRole">
+            <option value="">Select current role</option>
             <option value="Student">Student</option>
             <option value="Full Time Job">Full Time Job</option>
             <option value="Full Time Learner">Full Time Learner</option>
             <option value="Prefer not to say">Prefer not to say</option>
             <option value="Other">Other</option>
         </select>
-
+    
         <label class="label" for="recommend">Would you recommend freeCodeCamp to a friend?</label>
-        <br>
-        <br>
-        <input class="radio" type="radio" name="recommend" id="recommend" checked> <span class="label">Definitely</span> 
-        <br>
-        <br>
-        <input class="radio" type="radio" name="recommend" id="recommend"> <span class="label">Maybe</span> 
-        <br>
-        <br>
-        <input class="radio" type="radio" name="recommend" id="recommend"> <span class="label">Not Sure</span>
-
-        <br>
-        <br>
-        
-        <label class="label" for="cRole">What is your favourite feature of freeCodeCamp?</label>
-        <br>
-        <br>
-        <select class="input" name="" id="cRole">
-            <option value="Select current role">Select an option</option>
-            <option value="Challenged">Challenged</option>
+        <br><br>
+        <input class="radio" type="radio" name="recommend" value="Definitely" checked> <span class="label">Definitely</span>
+        <br><br>
+        <input class="radio" type="radio" name="recommend" value="Maybe"> <span class="label">Maybe</span>
+        <br><br>
+        <input class="radio" type="radio" name="recommend" value="Not Sure"> <span class="label">Not Sure</span>
+        <br><br>
+    
+        <label class="label" for="favFeature">What is your favourite feature of freeCodeCamp?</label>
+        <br><br>
+        <select class="input" name="fav_feature" id="favFeature">
+            <option value="">Select an option</option>
+            <option value="Challenges">Challenges</option>
             <option value="Projects">Projects</option>
             <option value="Community">Community</option>
             <option value="Open Source">Open Source</option>
         </select>
-
-        <label class="label" for="improved">What would like to see improved? (Check all that apply)</label>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">Front-end Projects</span>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">Back-end Projects</span>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">Data Visualisation</span>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">Challenges</span>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">Open Source Community</span>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">Gitter help rooms</span>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">Vidoes</span>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">City Meetups</span>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">Wiki</span>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">Forum</span>
-        <br>
-        <br>
-        <input type="checkbox" name="improved" id="improved"> <span class="label">Additional Courses</span>
-        <br>
-        <br>
-
-        <label class="label" for="improved">Any comments or suggestion?</label>
-        <br>
-        <br>
-
-        <textarea class="input" name="" id="" rows="7" placeholder="Enter your comment here..."></textarea>
-        <br>
-        <br>
-
+    
+        <label class="label">What would you like to see improved? (Check all that apply)</label>
+        <br><br>
+        <input type="checkbox" name="improvements" value="Front-end Projects"> <span class="label">Front-end Projects</span>
+        <br><br>
+        <input type="checkbox" name="improvements" value="Back-end Projects"> <span class="label">Back-end Projects</span>
+        <br><br>
+        <input type="checkbox" name="improvements" value="Data Visualisation"> <span class="label">Data Visualisation</span>
+        <br><br>
+        <input type="checkbox" name="improvements" value="Challenges"> <span class="label">Challenges</span>
+        <br><br>
+        <input type="checkbox" name="improvements" value="Open Source Community"> <span class="label">Open Source
+            Community</span>
+        <br><br>
+        <input type="checkbox" name="improvements" value="Gitter help rooms"> <span class="label">Gitter help rooms</span>
+        <br><br>
+        <input type="checkbox" name="improvements" value="Videos"> <span class="label">Videos</span>
+        <br><br>
+        <input type="checkbox" name="improvements" value="City Meetups"> <span class="label">City Meetups</span>
+        <br><br>
+        <input type="checkbox" name="improvements" value="Wiki"> <span class="label">Wiki</span>
+        <br><br>
+        <input type="checkbox" name="improvements" value="Forum"> <span class="label">Forum</span>
+        <br><br>
+        <input type="checkbox" name="improvements" value="Additional Courses"> <span class="label">Additional Courses</span>
+        <br><br>
+    
+        <label class="label" for="comments">Any comments or suggestions?</label>
+        <br><br>
+        <textarea class="input" name="comments" id="comments" rows="7" placeholder="Enter your comment here..."></textarea>
+        <br><br>
+    
         <input class="input" type="submit" value="Submit">
-
-
-
     </form>
+
+
     </div>
     </div>
 </body>
